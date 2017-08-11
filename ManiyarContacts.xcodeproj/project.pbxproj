@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F31183C81F3B03F60087C2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31183C71F3B03F60087C2F5 /* AppDelegate.swift */; };
-		F31183CA1F3B03F60087C2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31183C91F3B03F60087C2F5 /* ViewController.swift */; };
 		F31183CD1F3B03F60087C2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31183CB1F3B03F60087C2F5 /* Main.storyboard */; };
 		F31183D01F3B03F60087C2F5 /* ManiyarContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F31183CE1F3B03F60087C2F5 /* ManiyarContacts.xcdatamodeld */; };
 		F31183D21F3B03F60087C2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31183D11F3B03F60087C2F5 /* Assets.xcassets */; };
 		F31183D51F3B03F60087C2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31183D31F3B03F60087C2F5 /* LaunchScreen.storyboard */; };
+		F31183DD1F3B053A0087C2F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31183DC1F3B053A0087C2F5 /* TableViewController.swift */; };
+		F31183DF1F3B7C4F0087C2F5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31183DE1F3B7C4F0087C2F5 /* TableViewCell.swift */; };
+		F31183E11F3B86680087C2F5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31183E01F3B86680087C2F5 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F31183C41F3B03F60087C2F5 /* ManiyarContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManiyarContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31183C71F3B03F60087C2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F31183C91F3B03F60087C2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F31183CC1F3B03F60087C2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F31183CF1F3B03F60087C2F5 /* ManiyarContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManiyarContacts.xcdatamodel; sourceTree = "<group>"; };
 		F31183D11F3B03F60087C2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31183D41F3B03F60087C2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31183D61F3B03F60087C2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31183DC1F3B053A0087C2F5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F31183DE1F3B7C4F0087C2F5 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F31183E01F3B86680087C2F5 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				F31183C71F3B03F60087C2F5 /* AppDelegate.swift */,
-				F31183C91F3B03F60087C2F5 /* ViewController.swift */,
 				F31183CB1F3B03F60087C2F5 /* Main.storyboard */,
+				F31183E01F3B86680087C2F5 /* Contact.swift */,
+				F31183DE1F3B7C4F0087C2F5 /* TableViewCell.swift */,
+				F31183DC1F3B053A0087C2F5 /* TableViewController.swift */,
 				F31183D11F3B03F60087C2F5 /* Assets.xcassets */,
 				F31183D31F3B03F60087C2F5 /* LaunchScreen.storyboard */,
 				F31183D61F3B03F60087C2F5 /* Info.plist */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31183CA1F3B03F60087C2F5 /* ViewController.swift in Sources */,
+				F31183E11F3B86680087C2F5 /* Contact.swift in Sources */,
+				F31183DF1F3B7C4F0087C2F5 /* TableViewCell.swift in Sources */,
 				F31183D01F3B03F60087C2F5 /* ManiyarContacts.xcdatamodeld in Sources */,
 				F31183C81F3B03F60087C2F5 /* AppDelegate.swift in Sources */,
+				F31183DD1F3B053A0087C2F5 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				F31183DB1F3B03F60087C2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
