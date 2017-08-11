@@ -91,7 +91,7 @@ class TableViewController: UITableViewController,UISearchBarDelegate {
                 if zoj%2==0 {
                     
                 
-                    cell.contactImage.image=UIImage.init(named:"Eye")
+                    cell.contactImage.image=UIImage.init(named:"show")
                 }else{
                     cell.contactImage.image=UIImage.init(named:"contacts")
                     
@@ -110,7 +110,7 @@ class TableViewController: UITableViewController,UISearchBarDelegate {
                 if zoj%2==0 {
                     
                     
-                    cell.contactImage.image=UIImage.init(named:"Eye")
+                    cell.contactImage.image=UIImage.init(named:"show")
                 }else{
                     cell.contactImage.image=UIImage.init(named:"contacts")
                     
